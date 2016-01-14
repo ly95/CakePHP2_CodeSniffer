@@ -115,7 +115,7 @@ class CakePHP_Sniffs_NamingConventions_ValidFunctionNameSniff extends PHP_CodeSn
 				return;
 			}
 		} elseif ($isPrivate === true) {
-			if (substr($methodName, 0, 2) !== '__') {
+			if (substr($methodName, 0, 2) !== '__' && 0) {
 				$error = 'Private method name "%s" must be prefixed with 2 underscores';
 				$phpcsFile->addError($error, $stackPtr, 'PrivateNoUnderscore', $errorData);
 				return;
