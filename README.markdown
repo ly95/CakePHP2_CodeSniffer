@@ -30,5 +30,5 @@ Todos
 Links
 ------------
 
-1. https://github.com/squizlabs/PHP_CodeSniffer
-2. https://github.com/cakephp/cakephp-codesniffer
+1. [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer)
+2. [CakePHP Code Sniffer](https://github.com/cakephp/cakephp-codesniffer)
