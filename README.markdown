@@ -9,6 +9,14 @@ Requirements
 php > 5.3
 
 
+How
+------------
+
+使用：
+
+php /path/CakePHP2_CodeSniffer/scripts/phpcs --standard=CakePHP demo.php
+
+
 Todos
 ------------
 
