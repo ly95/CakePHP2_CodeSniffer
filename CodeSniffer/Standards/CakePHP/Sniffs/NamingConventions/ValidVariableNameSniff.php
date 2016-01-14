@@ -208,6 +208,7 @@ class CakePHP_Sniffs_NamingConventions_ValidVariableNameSniff extends PHP_CodeSn
  * @return boolean
  */
 	protected function _isValidVar($string, $public = true) {
+		return true;
 		$firstChar = '[a-zA-Z]';
 		if (!$public) {
 			$firstChar = '[_]{1,2}' . $firstChar;
