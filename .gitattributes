@@ -6,5 +6,6 @@
 /CodeSniffer/Standards/PSR2/Tests export-ignore
 /CodeSniffer/Standards/Squiz/Tests export-ignore
 /CodeSniffer/Standards/Zend/Tests export-ignore
+/CodeSniffer/Standards/CakePHP/tests export-ignore
 .travis.yml export-ignore
 package.xml export-ignore
