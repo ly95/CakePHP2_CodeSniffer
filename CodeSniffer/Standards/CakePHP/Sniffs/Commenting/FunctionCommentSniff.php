@@ -334,11 +334,11 @@ class CakePHP_Sniffs_Commenting_FunctionCommentSniff implements PHP_CodeSniffer_
         if (empty($params) === false) {
 
             // Parameters must appear immediately after the comment.
-            if ($params[0]->getOrder() !== 2) {
-                $error    = 'Parameters must appear immediately after the comment';
-                $errorPos = ($params[0]->getLine() + $commentStart);
-                $this->currentFile->addWarning($error, $errorPos, 'SpacingBeforeParams');
-            }
+            // if ($params[0]->getOrder() !== 2) {
+            //     $error    = 'Parameters must appear immediately after the comment';
+            //     $errorPos = ($params[0]->getLine() + $commentStart);
+            //     $this->currentFile->addWarning($error, $errorPos, 'SpacingBeforeParams');
+            // }
 
             $previousParam      = null;
             $spaceBeforeVar     = 10000;
