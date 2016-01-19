@@ -117,7 +117,7 @@ class CakePHP_Sniffs_NamingConventions_ValidVariableNameSniff extends PHP_CodeSn
 			if (substr($varName, 0, 2) !== '__') {
 				$error = 'Private member variable "%s" must contain a leading underscore';
 				$data = array($varName);
-				$phpcsFile->addError($error, $stackPtr, 'PrivateNoUnderscore', $data);
+				$phpcsFile->addWarning($error, $stackPtr, 'PrivateNoUnderscore', $data);
 				return;
 			}
 			$filename = $phpcsFile->getFilename();
